@@ -1,0 +1,91 @@
+#inputnumber{
+  width:calc(100% - 75px);
+  padding:5px 5px 5px 5px;
+  border:none;
+  border-bottom:solid;
+  border-bottom-color:rgba(50,50,50,0.2);
+  border-bottom-width:1px;
+  margin-right:5px;
+}
+#inputnumber:focus{
+  outline:0;
+  border:none;
+  border-bottom:solid;
+  border-bottom-color:rgba(50,50,50,0.2);
+  border-bottom-width:1px;
+}
+#submit{
+  width:50px;
+  color:white;
+  background-color:#455ede;
+  display:inline-block;
+  padding:5px 5px 5px 5px;
+  box-sizing:border-box;
+  text-align:center;
+  cursor:pointer;
+  border-radius:2px;
+}
+#submit:hover{
+  background-color:white;
+  color:#455ede;
+}
+#turns{
+  width:100%;
+  border-spacing:0;
+  border-collapse:collapse;
+}
+#turns td{
+  width:25%;
+  text-align:center;
+  padding-top:5px;
+}
+#turns th{
+  background-color:#e2e2e2;
+  padding:10px 5px 5px 5px;
+  border-radius:2px;
+}
+body{
+  font-family:'Calibri';
+  background-color: #252525;
+  padding:10px;
+}
+
+h1{
+  color:#fff;
+  margin:0 0 0 0;
+  cursor:pointer;
+  text-align:center;
+  padding-bottom:10px;
+}
+#instructions{
+  padding-left:4px;
+  box-sizing:border-box;
+  text-align:justify;
+  display:inline-block;
+  font-size:15px;
+}
+#besth{
+  font-size:10px;
+}
+#menu{
+  text-align:center;
+  width:100%;
+}
+
+#menu a{
+  cursor:pointer;
+  color:#fff;
+}
+#nav{
+  padding-left:0px;
+}
+#nav li{
+  display:block;
+  width:200px;
+  color:#fff;
+  font-size:26px;
+}
+
+#playlink {
+  font-size:80px !important;
+}

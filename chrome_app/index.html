@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Mastermind</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>MASTERMIND</h1>
+  <div id="menu">
+    <center>
+    <ul id="nav">
+      <li>
+        <a id='playlink'>PLAY</a>
+      </li>
+      <li>
+        <td><a id='instructionslink'>INSTRUCTIONS</a>
+      </li>
+    </ul>
+    </center>
+  </div>
+  <div id = "screen1">
+  <p id="instructions">
+    <b>Instructions:</b>
+    I thought of a 3 digit number, guess what it is.
+    Enter a guess in the textbox below, and click on try.
+    If any of the digit exists in my number, the exist counter will be increased by 1.
+    If any of the digits is in the same place value as my number, the match counter will be increased by 1. Play once, to understand better.
+    Use your logic and some math to find out my number in the least tries!
+  </p>
+  </div>
+  <div id="best">
+  <h1 id='besth'>BEST: </h1>
+  </div>
+  <div id="screen2">
+  <input placeholder='ENTER NUMBER' type='text' id='inputnumber'></input>
+  <a id='submit'>TRY</a>
+  <br>
+  <br>
+  <table id='turns'>
+    <tr>
+      <th>Turn</th>
+      <th>Number</th>
+      <th>Exist</th>
+      <th>Match</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+  </div>
+  <div id="screen3">
+  <h1 id='victory'>VICTORY</h1>
+  </div>
+  <script src="jq.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
